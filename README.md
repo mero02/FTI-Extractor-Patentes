@@ -20,7 +20,7 @@ La aplicación toma el texto ingresado por el usuario, busca las patentes que co
 ## Pasos para Hacer Funcionar el Programa
 
 1. **Clonar el proyecto.**
-2. **Crear un entorno virtual** dentro de la carpeta del proyecto (`/Grupo_2/`):
+2. **Crear un entorno virtual** dentro de la carpeta del proyecto:
 
     ```bash
     python -m venv env
