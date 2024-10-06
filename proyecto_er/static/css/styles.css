@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(45, 45, 45, 0.8));
+    color: #e0e0e0;
+    min-height: 100vh; /* Hace que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    background-color: #1f1f1f; 
+    border-radius: 15px;
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+.container {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+header {
+    margin-bottom: 0;
+    color: #fff; 
+}
+
+
+.form-control, .form-control:focus {
+    background-color: #333; 
+    color: #e0e0e0; 
+    border-color: #555;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #fff; 
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, blue, yellow, blue);
+    border-color: blue;
+    color: blue; 
+}
+
+.custom-title {
+    color: #e0e0e0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-size: 3rem; 
+    font-weight: 700; 
+    text-align: center; 
+}
+
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 16px; 
+    text-align: center; 
+    position: fixed; 
+    bottom: -30px; /* Se desplaza 30px hacia abajo del borde del contenedor/viewport */
+    left: 0; 
+    right: 0; 
+    width: 100%;
+    margin-top: auto;
+}
+
+.patentes-container {
+    margin-top: 20px;
+}
+
+/* Estilo general para la patente */
+.patente-argentina {
+    width: 320px; /* Ajusta el tamaño de la patente */
+    padding: 1px;
+    height: 110px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+.patente-header {
+    width: 100%;
+    height: 40px;
+    background-color: #0046ad;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mercosur-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px; 
+}
+
+.mercosur-img {
+    width: 40px; 
+    height: auto; 
+}
+
+.argentina-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.flag-arg {
+    width: 30px;
+    height: 20px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg') no-repeat center center;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+/* Estilo para el cuerpo de la patente (número encontrado) */
+.patente-body {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Estilo especial para la patente de error 404 */
+.error-404 {
+    font-size: 22px;
+    line-height: 1.25;
+    color: #000000; /* Color rojo para resaltar el error */
+}
+
+/* Estilo contenedor de mensaje sin resultados */
+.no-patentes-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #777;
+    background-color: #222;
+    color: white;
+}

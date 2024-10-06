@@ -1,0 +1,17 @@
+# Entornos virtuales
+env/
+venv/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Archivos de logs
+*.log
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
